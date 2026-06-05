@@ -42,7 +42,7 @@ jobs:
         with:
           args: >
             -Dsonar.organization=research-projects-all
-            -Dsonar.projectKey=research-projects-all_spring-restbuck
+            -Dsonar.projectKey=research-projects-all_spring-restbucks
             -Dsonar.sources=.
             -Dsonar.java.binaries=server/target/classes
             -Dsonar.exclusions=**/target/**,**/.mvn/**,**/mvnw,**/mvnw.cmd
